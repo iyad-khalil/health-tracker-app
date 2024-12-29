@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "health-care-app-fb1b8",
+          "appId": "1:231627494583:android:c315984ca0af31d9ede932",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "health-care-app-fb1b8",
+          "configurations": {
+            "android": "1:231627494583:android:c315984ca0af31d9ede932",
+            "web": "1:231627494583:web:332b3e6c49bccc6cede932"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
